@@ -42,7 +42,7 @@ The project follows a strict **Layered Architecture** (Separation of Concerns) t
 ### Installation
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/pomodoro-focus.git
+    git clone https://github.com/nailul-ghufron/PomodoroApp.git
     cd pomodoro-focus
     ```
 2.  Serve the project:
