@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Focus - Productivity Redefined</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="app-header">
+            <h1 id="app-title">Pomodoro Focus</h1>
+            <div id="mode-indicator" class="status-badge">Ready to focus</div>
+        </header>
+
+        <!-- Main Card with Glassmorphism -->
+        <main class="timer-card">
+            <!-- Mode Switcher -->
+            <nav class="mode-tabs">
+                <button class="mode-tab active" data-mode="pomodoro">Pomodoro</button>
+                <button class="mode-tab" data-mode="short-break">Short Break</button>
+                <button class="mode-tab" data-mode="long-break">Long Break</button>
+            </nav>
+
+            <!-- Main Timer Display -->
+            <div class="timer-display">
+                <span id="timer-minutes">25</span>
+                <span class="timer-colon">:</span>
+                <span id="timer-seconds">00</span>
+            </div>
+
+            <div id="timer-status" class="timer-label">IDLE</div>
+
+            <!-- Main Controls -->
+            <div class="controls-container">
+                <button id="start-btn" class="btn btn-primary">
+                    <span class="icon">▶</span> START
+                </button>
+                <button id="pause-btn" class="btn btn-secondary hidden">
+                    <span class="icon">⏸</span> PAUSE
+                </button>
+                <button id="reset-btn" class="btn btn-ghost">
+                    <span class="icon">↺</span> RESET
+                </button>
+            </div>
+        </main>
+
+        <!-- Session Info Section -->
+        <footer class="session-info">
+            <div class="session-count">
+                Sesi selesai hari ini: <span id="completed-sessions-count">0</span>
+            </div>
+            <div class="progress-bar-container">
+                <div id="daily-progress" class="progress-bar" style="width: 0%"></div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="app.js"></script>
+</body>
+</html>
