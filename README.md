@@ -4,7 +4,7 @@
 
 **Pomodoro Focus** is a premium web-based productivity tool designed with a "Soft Focus" aesthetic. Built on a clean, layered architectural foundation, it provides a distraction-free environment for deep work using the Pomodoro technique.
 
-![Initial UI](assets/screenshots/initial.png)
+![Initial UI](https://nailul-ghufron.github.io/Pomodoro-Focus/)
 
 ## ✨ Features
 
@@ -42,7 +42,7 @@ The project follows a strict **Layered Architecture** (Separation of Concerns) t
 ### Installation
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/nailul-ghufron/PomodoroApp.git
+    git clone https://github.com/nailul-ghufron/Pomodoro-Focus.git
     cd pomodoro-focus
     ```
 2.  Serve the project:
