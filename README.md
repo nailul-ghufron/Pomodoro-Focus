@@ -4,7 +4,7 @@
 
 **Pomodoro Focus** is a premium web-based productivity tool designed with a "Soft Focus" aesthetic. Built on a clean, layered architectural foundation, it provides a distraction-free environment for deep work using the Pomodoro technique.
 
-![Initial UI](https://nailul-ghufron.github.io/Pomodoro-Focus/)
+🔗 **[Live Demo →](https://nailul-ghufron.github.io/Pomodoro-Focus/)**
 
 ## ✨ Features
 
